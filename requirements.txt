@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-text-splitters
+python-dotenv
+tavily-python
+ipykernel
+langchain_tavily
+setuptools
+streamlit 
+langchain-openai
