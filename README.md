@@ -109,19 +109,17 @@ The project focuses on **Agentic AI + MLOps + Cloud Engineering + Observability*
 
 ```mermaid
 flowchart TD
-    U[User] -->|Input Destination, Budget, Dates| S[Streamlit UI]
+    U[User] --> S[Streamlit UI]
 
     S --> A[LangChain Agent Orchestrator]
 
-    A --> T1[Search APIs
-Serper / Tavily]
-    A --> T2[Weather & Travel Data Tools]
+    A --> T1[Search APIs - Serper / Tavily]
+    A --> T2[Weather and Travel Data Tools]
     A --> T3[Itinerary Planner Tool]
 
     A --> LLM[LLM Model API]
 
-    A --> APP[Travel Planning Logic
-Python Backend]
+    A --> APP[Python Backend Logic]
 
     APP --> LOG[Logging Layer]
     LOG --> FB[Filebeat]
@@ -130,12 +128,8 @@ Python Backend]
     ES --> KB[Kibana Dashboard]
 
     APP --> D[Docker Container]
-    D --> K8S[Kubernetes Cluster (GKE)]
-    K8S --> LB[Load Balancer & Replicas]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style LLM fill:#bbf,stroke:#333
-    style K8S fill:#bfb,stroke:#333
+    D --> K8S["Kubernetes Cluster (GKE)"]
+    K8S --> LB[Load Balancer and Replicas]
 ```
 
 ### 🔹 Architecture Flow Explanation
@@ -266,3 +260,4 @@ Data Science & AI Enthusiast | LLMOps Learner
 ---
 
 ## ⭐ If you like this project, give it a star!**
+
