@@ -255,9 +255,10 @@ kubectl apply -f k8s-deployment.yaml
 ## 👩‍💻 Author
 
 **Shilpi Chadokar**
-Data Science & AI Enthusiast | LLMOps Learner
+AI Engineer 
 
 ---
 
 ## ⭐ If you like this project, give it a star!**
+
 
